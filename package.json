@@ -1,0 +1,21 @@
+{
+  "name": "successivetech",
+  "version": "1.0.0",
+  "description": "App for learning",
+  "main": "index.js",
+  "scripts": {
+    "pattern:diamond": "node extra/patterns/diamond.js",
+    "pattern:equilateral": "node extra/patterns/equilateral.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamidRaza94/successivetech.git"
+  },
+  "author": "Mohammad Hamid Raza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HamidRaza94/successivetech/issues"
+  },
+  "homepage": "https://github.com/HamidRaza94/successivetech#readme"
+}
