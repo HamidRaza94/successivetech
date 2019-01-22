@@ -1,4 +1,4 @@
-function diamond(n) {
+export default function diamond(n) {
   console.log('Print a diamond with rows', n);
   let pattern = '';
   for(let i=1; i<=n; i++) {
@@ -25,5 +25,3 @@ function diamond(n) {
 
   console.log(pattern);
 }
-
-diamond(5);

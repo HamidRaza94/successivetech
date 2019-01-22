@@ -1,4 +1,4 @@
-function equilateral (n) {
+export default function equilateral (n) {
   console.log('Print a equilateral with rows', n);
   let pattern = '';
   for(let i=1; i<=n; i++) {
@@ -13,5 +13,3 @@ function equilateral (n) {
   }
   console.log(pattern);
 }
-
-equilateral(10);

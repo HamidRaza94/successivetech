@@ -4,10 +4,7 @@
   "description": "App for learning",
   "main": "index.js",
   "scripts": {
-    "pattern:diamond": "node extra/patterns/diamond.js",
-    "pattern:equilateral": "node extra/patterns/equilateral.js",
-    "util:validation": "node extra/utils/validation.js",
-    "util:permission": "node extra/utils/permission.js",
+    "dev": "babel-node extra --presets env",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/HamidRaza94/successivetech/issues"
   },
-  "homepage": "https://github.com/HamidRaza94/successivetech#readme"
+  "homepage": "https://github.com/HamidRaza94/successivetech#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
