@@ -6,6 +6,8 @@
   "scripts": {
     "pattern:diamond": "node extra/patterns/diamond.js",
     "pattern:equilateral": "node extra/patterns/equilateral.js",
+    "util:validation": "node extra/utils/validation.js",
+    "util:permission": "node extra/utils/permission.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
